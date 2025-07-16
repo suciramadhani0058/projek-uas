@@ -1,0 +1,61 @@
+
+.custom-navbar {
+  background-color: #f8f9fa; /* Warna latar belakang navbar */
+  padding-top: 10px;
+  padding-bottom: 0;
+  position: relative;
+  width: 100%; /*  */
+}
+
+
+/* Styling untuk Nav Links */
+.custom-nav-links .nav-link {
+  color: #5d4037 !important;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.custom-nav-links .nav-link:hover {
+  color: #8b5e3c !important;
+}
+
+/* Styling untuk Search Button  */
+.custom-navbar .btn-outline-success {
+  border-color: #8b5e3c;
+  color: #8b5e3c;
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: #8b5e3c;
+  color: white;
+}
+
+
+@media (max-width: 992px) {
+  .custom-nav-links {
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  .custom-nav-links .nav-link {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px; 
+      padding-right: 10px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-navbar .navbar-toggler {
+      display: block; 
+  }
+  .custom-navbar .navbar-collapse {
+      flex-grow: 0; /
+  }
+  .custom-nav-links {
+      display: none; 
+  }
+}
