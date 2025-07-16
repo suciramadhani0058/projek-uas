@@ -1,0 +1,3 @@
+ini adalah link domain yang sudah di up ke netlify
+
+https://cafe-selera-rasa.netlify.app/
